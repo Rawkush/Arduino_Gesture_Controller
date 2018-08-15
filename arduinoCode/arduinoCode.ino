@@ -1,7 +1,8 @@
 
 const int trigger1 = 2; //Trigger pin of 1st Sesnor
 const int echo1 = 3; //Echo pin of 1st Sesnor
-
+long time_taken;
+int dist,distL,distR;
 void setup() {
   // put your setup code here, to run once:
 Serial.begin(9600);
