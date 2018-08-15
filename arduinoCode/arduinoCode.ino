@@ -17,7 +17,10 @@ void loop() {
 
 void calculateDistance()(int trigger,int echo){
 
-  
+time_taken = pulseIn(echo, HIGH);
+dist= time_taken*0.034/2;
+if (dist>50)
+dist = 50;  
 }
 
 void sendAndTrigger(){
