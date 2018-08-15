@@ -15,7 +15,7 @@ void loop() {
 calculateDistance(trigger1,echo1);
 distL =dist;
 
-if ((distL >40 ) && (distL <50)) //Detect both hands
+if ((distL <40 ) ) //Detect both hands
 {
 Serial.println("Play/Pause");
 delay (500);
