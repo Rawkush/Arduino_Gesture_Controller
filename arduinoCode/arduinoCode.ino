@@ -4,6 +4,7 @@ const int echo1 = 3; //Echo pin of 1st Sesnor
 
 void setup() {
   // put your setup code here, to run once:
+Serial.begin(9600);
 
 }
 
