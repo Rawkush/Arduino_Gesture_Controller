@@ -12,6 +12,8 @@ pinMode(echo1, INPUT);
 
 void loop() {
   // put your main code here, to run repeatedly:
+calculateDistance(trigger1,echo1);
+distL =dist;
 
 }
 
