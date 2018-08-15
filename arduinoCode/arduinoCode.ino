@@ -33,10 +33,10 @@ dist = 50;
 
 void sendAndTrigger(){
 
-digitalWrite(trigger, LOW);
+digitalWrite(trigger1, LOW);
 delayMicroseconds(2);
-digitalWrite(trigger, HIGH);
+digitalWrite(trigger1, HIGH);
 delayMicroseconds(10);
-digitalWrite(trigger, LOW);
+digitalWrite(trigger1, LOW);
 }
 
