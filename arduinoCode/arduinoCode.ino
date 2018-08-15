@@ -23,7 +23,7 @@ delay (500);
 
 }
 
-void calculateDistance()(int trigger,int echo){
+void calculateDistance(int trigger,int echo){
 
 time_taken = pulseIn(echo, HIGH);
 dist= time_taken*0.034/2;
