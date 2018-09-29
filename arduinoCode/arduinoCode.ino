@@ -44,7 +44,7 @@ void loop(){
 distL= calculate_distance(trigger1,echo1);
 distR= calculate_distance(trigger1,echo1);
 
-//  Serial.println(distL);
+ // Serial.println(distL);
 
 //if both hands are between 40 to 50 distance
 if ((distL >40 && distR>40) && (distL <50 && distR<50)) //Detect both hands
