@@ -44,67 +44,62 @@ void loop(){
 distL= calculate_distance(trigger1,echo1);
 distR= calculate_distance(trigger1,echo1);
 
+//  Serial.println(distL);
 
-// if both hands are at distance  40 play or pause the video
+//if both hands are between 40 to 50 distance
 if ((distL >40 && distR>40) && (distL <50 && distR<50)) //Detect both hands
 {
   Serial.println("Play/Pause");
-delay (500);
+  delay (500);
 }
 
 
-// only left hand
-if ((distL >40 && distL<50) && (distR ==50)) //Detect Left Hand
+
+// only left hand is placed
+if ((distL >40 && distL<50) && (distR >60)) //Detect Left Hand
 {
   Serial.println("Rewind");
   delay (500);
-
-}
-
-
-// only right hand
-
-if ((distR >40 && distR<50) && (distL ==50)) //Detect Right Hand
-{
   
-  Serial.println("Forward"); 
+  }
 
+
+// only right hand is placed
+if ((distR >40 && distR<50) && (distL >60)) //Detect Right Hand
+{
+  Serial.println("Rewind");
   delay (500);
+  
+  }
 
-}
 
-
-//  left hand still
-
-if (distL>=13 && distL<=17)
+// Left hand lock mode
+if (distL>=13 && distL<=27 )
 {
   delay(100); //Hand Hold Time
-  calculate_distance(trigger1,echo1);
-  distL =dist;
-  if (distL>=13 && distL<=17)
+  distL = calculate_distance(trigger1,echo1);  // calculating the distance again to see if hand moved
+  
+  if (distL>=13 && distL<=27)
   {
     Serial.println("Left Locked");
-    while(distL<=40)
+    while(distL<=27)
     {
-      calculate_distance(trigger1,echo1);
-      distL =dist;
+      distL = calculate_distance(trigger1,echo1);
       if (distL<10) //Hand pushed in 
       {
         Serial.println ("Vup");
         delay (300);
-        
-        }
+      }
+      
       if (distL>20) //Hand pulled out
       {
         Serial.println ("Vdown");
-      delay (300);
-      }
+        delay (300);
+        }
+        
     }
   }
 }
-
-
-
 
 
 }
