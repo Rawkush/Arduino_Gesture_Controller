@@ -18,6 +18,7 @@ pinMode(trigger1, OUTPUT);
 pinMode(echo1, INPUT); 
 pinMode(trigger2, OUTPUT); 
 pinMode(echo2, INPUT); 
+
 }
 
 /*###Function to calculate distance###*/
@@ -42,7 +43,7 @@ void loop(){
 
 
 distL= calculate_distance(trigger1,echo1);
-distR= calculate_distance(trigger1,echo1);
+distR= calculate_distance(trigger2,echo2);
 
  // Serial.println(distL);
 
