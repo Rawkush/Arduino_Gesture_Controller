@@ -3,11 +3,11 @@ controlling pc, laptops or any other device through hand gesture with the help o
  With This project you can control the VLC player, you can increase the volume, play pause the video etc.
  
  More features will be added soon.
- You can also custumise this project and chamge the controlling action
+ You can also customize this project and change the controlling action
 
 # Circuit Diagram
 <h1 align="center">
-<img src="/source/circuit diagram.png"/>
+<img src="/.source/circuit diagram.png"/>
 
 </h1>
 
@@ -15,11 +15,11 @@ controlling pc, laptops or any other device through hand gesture with the help o
 
 # ScreenShot
 <h1 align="center">
-<img src="/source/diagram.png"/>
+<img src="/.source/diagram.png"/>
 
 </h1>
 
 <h1 align="center">
-<img src="/source/working.png"/>
+<img src="/.source/working.png"/>
 
 </h1>
