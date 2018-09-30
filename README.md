@@ -7,7 +7,7 @@ controlling pc, laptops or any other device through hand gesture with the help o
 
 # Circuit Diagram
 <h1 align="center">
-<img src="/.source/circuit diagram.png"/>
+<img src="/.source/circuitDiagram.png"/>
 
 </h1>
 
