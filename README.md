@@ -5,3 +5,21 @@ controlling pc, laptops or any other device through hand gesture with the help o
  More features will be added soon.
  You can also custumise this project and chamge the controlling action
 
+# Circuit Diagram
+<h1 align="center">
+<img src="/source/circuit diagram.png"/>
+
+</h1>
+
+
+
+# ScreenShot
+<h1 align="center">
+<img src="/source/diagram.png"/>
+
+</h1>
+
+<h1 align="center">
+<img src="/source/working.png"/>
+
+</h1>
