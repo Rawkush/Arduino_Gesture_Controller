@@ -46,18 +46,6 @@ pip install pyautogui
  4. Run the python code
  
  
-# Gestures 
-
-1. If both hands are at a distance of 40 cm  to 50 cm : Play or Pause the Video
-
-2. If only left hand is placed at a distance of 40cm to 50cm : Rewind the video
-
-3.  If left hand is at distance of 17 cm to 27 cm :lock mode
-    
-4. In Lock mode if distance is less tha 10 cm : volume decrease
-
-5. In lock mode if distance is grater than 20 cm : volume increase
-
      
  
 # NOTE 
