@@ -1,4 +1,10 @@
 # Arduino-Gesture-Controller
+
+
+![GitHub forks](https://img.shields.io/github/forks/rawkush/arduino_gesture_controller?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/rawkush/arduino_gesture_Controller?style=social) <br/>
+![ViewCount](https://views.whatilearened.today/views/github/rawkush/arduino_gesture_controller.svg)
+
 controlling pc, laptops or any other device through hand gesture with the help of arduino
  With This project you can control the VLC player, you can increase the volume, play pause the video etc.
  
